@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Moyamoya</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+
+  <div class="viewport">
+    <header class="cf">
+      <div class="logo">
+        moyamoya
+      </div>
+      <% if current_user %>
+        <nav>
+          <ul>
+            <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete if current_user %></li>
+            <li>
+              <%= form_tag(search_posts_path,:method => 'get') do %>
+                <%= text_field_tag :search %>
+                <%= submit_tag '検索', :name => nil %>
+              <% end %>
+            </li>
+          </ul>
+        </nav>
+      <% end %>
+    </header>
+
+    <% if notice || alert %>
+      <div class="flash">
+        <%= notice if notice %>
+        <%= alert if alert %>
+      </div>
+    <% end %>
+
+    <body class="cf">
+      <% if current_user %>
+        <aside>
+          <section class="username">
+            <%= current_user.username %>
+          </section>
+          <section class="my_posts">
+            <p>過去の投稿</p>
+            <ul>
+              <% current_user.posts.each do |post| %>
+                <li><%= link_to post.content, edit_post_path(post) %></li>
+              <% end %>
+            </ul>
+          </section>
+          <section class="tags">
+            <p>カテゴリー（タグ）</p>
+            <ul>
+              <% Tag.all.each do |tag| %>
+                <li><%= link_to tag.title, tag_posts_posts_path(tag: tag.title) %></li>
+              <% end %>
+            </ul>
+          </section>
+          <section class="sort">
+            <p>並び替え</p>
+            <ul>
+              <li><%= link_to "投稿が新しい順", new_posts_posts_path %></li>
+              <li><%= link_to "投稿が古い順", old_posts_posts_path %></li>
+              <li><%= link_to "共感が多い順", empathy_posts_posts_path %></li>
+              <li><%= link_to "応援が多い順", cheer_posts_posts_path %></li>
+            </ul>
+          </section>
+        </aside>
+      <% end %>
+      <main class="<%= 'no-login' unless current_user %>">
+        <%= yield %>
+      </main>
+    </body>
+    <footer></footer>
+  </div>
+</html>

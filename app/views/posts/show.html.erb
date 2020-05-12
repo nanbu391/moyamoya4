@@ -1,0 +1,48 @@
+<h1>投稿詳細ページ</h1>
+
+<h2 class="content"><%= @post.content %></h2>
+
+<section class="cf mb">
+  <div class="empathy">
+    <h3>共感件数: <%= @post.empathys.count %></h3>
+    <% if current_user.already_empathed?(@post) %>
+      <%= button_to '共感を取り消す', post_empathe_path(@post), method: :delete %>
+    <% else %>
+      <%= button_to post_empathes_path(@post) do %>
+        <i class="fa fa-heart" aria-hidden="true"></i> 共感
+      <% end %>
+    <% end %>
+
+    <h3 class="mt">共感したユーザー</h3>
+    <ul>
+      <% @post.empathed_users.each do |user| %>
+        <li><%= user.username %></li>
+      <% end %>
+    </ul>
+  </div>
+
+  <div class="cheer">
+    <h3>応援件数: <%= @post.cheers.count %></h3>
+    <% if current_user.already_cheered?(@post) %>
+      <%= button_to '応援を取り消す', post_cheer_path(@post), method: :delete %>
+    <% else %>
+      <%= button_to post_cheers_path(@post) do %>
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> 応援
+      <% end %>
+    <% end %>
+
+    <h3 class="mt">応援したユーザー</h3>
+    <ul>
+      <% @post.cheered_users.each do |user| %>
+        <li><%= user.username %></li>
+      <% end %>
+    </ul>
+  </div>
+</section>
+
+<%= link_to '一覧ページに戻る', posts_path %><br /><br />
+
+<% if current_user %>
+  <%= link_to '投稿を編集する', edit_post_path(@post) %> |
+  <%= link_to '投稿を削除', post_path(@post), method: :delete, data: { confirm: '本当に削除してよろしいですか？' } %>
+<% end %>

@@ -1,0 +1,22 @@
+<%= link_to '投稿する', new_post_path, class: 'btn mb' %>
+
+<table class="post_table">
+  <% @posts.each do |post| %>
+    <tr>
+      <td>
+        <%= link_to post.content, post_path(post) %><br />
+        <em><%= post.user.username %></em>
+      </td>
+      <td><%= post.created_at.strftime("%Y年 %m月 %d日 %H:%M") %></td>
+      <td>
+        <% post.tags.each do |tag| %>
+          <span class="tag-view"><%= tag.title %></span>
+        <% end %>
+      </td>
+      <td width="70">
+        <%= "共感： #{post.empathys.count}" %><br />
+        <%= "応援： #{post.cheers.count}" %>
+      </td>
+    </tr>
+  <% end %>
+</table>
