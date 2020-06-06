@@ -9,3 +9,5 @@
 Tag.create(title: "仕事")
 Tag.create(title: "恋愛")
 Tag.create(title: "家庭")
+Tag.create(title: "学校")
+Tag.create(title: "介護")
