@@ -1,3 +1,51 @@
+# newRead
+
+概要
+
+
+## Description
+詳細の説明
+
+
+
+## Usage
+用途
+
+
+## Install
+インストール方法
+
+
+#半角スペースの場合
+
+新しいページです。(半角スペース２回)
+
+設定手順は以下のようになります。
+
+
+#brタグの場合
+
+新しいページです。<br>
+
+設定手順は以下のようになります。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the
