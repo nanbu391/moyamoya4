@@ -43,7 +43,7 @@
 [文章](リンク先のURL)
 
 
-[画像名](./public/images/桃.jpeg)
+![画像名](/public/images/桃.jpeg)
 
 
 
