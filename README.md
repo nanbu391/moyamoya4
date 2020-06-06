@@ -43,7 +43,7 @@
 [文章](リンク先のURL)
 
 
-![画像名](https://github.com/nanbu391/moyamoya4/blob/master/README.md/1.jpg)
+![画像名](https://github.com/nanbu391/moyamoya4/blob/master/README.md/1.jpg?raw=true)
 
 
 
