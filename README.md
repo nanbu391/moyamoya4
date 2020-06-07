@@ -2,8 +2,7 @@
 # README　このアプリについて  
   
   
-![概要](https://github.com/nanbu391/moyamoya4/blob/master/1f4dd@2x.png)
-## 概要
+## ![概要](https://github.com/nanbu391/moyamoya4/blob/master/1f4dd@2x.png)概要
  ・アプリ名:ポチッと支え〜る  
  
  ・使用言語・開発環境：HTML/CSS/Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code  
