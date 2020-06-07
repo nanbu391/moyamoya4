@@ -33,38 +33,38 @@ Basic認証をかけています。閲覧時は以下のIDとPassを入力して
 #### -トップページ-
 マイページで投稿一覧を見ることができます。いつ誰が投稿したのか、共感数・応援数などを確認することができます。  
 また、ここから投稿ページに飛べます。  
-![demo](https://gyazo.com/a12fe81d40347eb3947136aac0b35b5e)  
+[![Image from Gyazo](https://i.gyazo.com/a12fe81d40347eb3947136aac0b35b5e.gif)](https://gyazo.com/a12fe81d40347eb3947136aac0b35b5e)
 
 #### -ログイン機能-
 名前、メールアドレス、パスワード（再確認）を入力して新規ユーザー登録ができます。  
 一度登録した後は、ログアウトした場合に再度メールアドレスとパスワードを入力することでログインできます。  
-https://gyazo.com/0985997685c168919236736f338ec91a  
-https://gyazo.com/20219370380df28d3085d7be2478cf25  
+h[![Image from Gyazo](https://i.gyazo.com/0985997685c168919236736f338ec91a.gif)](https://gyazo.com/0985997685c168919236736f338ec91a)
+[![Image from Gyazo](https://i.gyazo.com/20219370380df28d3085d7be2478cf25.gif)](https://gyazo.com/20219370380df28d3085d7be2478cf25)
 
 #### -投稿機能-  
 投稿するボタンを押し、投稿内容を記載後に投稿ボタンを押すと、トップページに反映されます。  
-https://gyazo.com/029d2cc3b52045d2d63a06d22c12ea77  
+[![Image from Gyazo](https://i.gyazo.com/029d2cc3b52045d2d63a06d22c12ea77.gif)](https://gyazo.com/029d2cc3b52045d2d63a06d22c12ea77)  
 
 #### -編集機能-  
 投稿内容を修正したい時は、編集ボタンを押すと編集できます。  
-https://gyazo.com/a66e10b863a80487ad6c53af6cb4ddf5  
+[![Image from Gyazo](https://i.gyazo.com/a66e10b863a80487ad6c53af6cb4ddf5.gif)](https://gyazo.com/a66e10b863a80487ad6c53af6cb4ddf5)
 
 #### -削除機能-  
 削除ボタンを押すと、投稿記事が削除されます。  
-https://gyazo.com/5e639b4d45d1ed69c8139999d10790ed
+[![Image from Gyazo](https://i.gyazo.com/5e639b4d45d1ed69c8139999d10790ed.gif)](https://gyazo.com/5e639b4d45d1ed69c8139999d10790ed)
 
 #### -共感・応援ボタン機能-
 「共感できる」「応援したい」と思った投稿に対しては共感ボタンや応援ボタンを押すことで追加されて行きます。
 誰が押してくれたかも確認することができます。  
-https://gyazo.com/27e70cf544763e96ac2f9d2eb7d9ce6e  
+[![Image from Gyazo](https://i.gyazo.com/27e70cf544763e96ac2f9d2eb7d9ce6e.gif)](https://gyazo.com/27e70cf544763e96ac2f9d2eb7d9ce6e)
 
 #### -並び替え機能（新しい/古い投稿、共感数/応援数が多い投稿）-  
 投稿が増えてきた時は、並び替えを行うことで、投稿が見やすくなります。  
-https://gyazo.com/97e808940ca6e1540795ea154ae1b119  
+[![Image from Gyazo](https://i.gyazo.com/8951060adc88a968e92706a9faef3126.gif)](https://gyazo.com/8951060adc88a968e92706a9faef3126) 
 
 #### -並び替え機能（タグ）-
 タグを選択することで、見たいカテゴリの投稿が見れます。  
-https://gyazo.com/8951060adc88a968e92706a9faef3126  
+[![Image from Gyazo](https://i.gyazo.com/97e808940ca6e1540795ea154ae1b119.gif)](https://gyazo.com/97e808940ca6e1540795ea154ae1b119)
 
 #### -検索機能-  
 検索ワードを入力することで、検索したい語が入った投稿のみが表示されます。  
