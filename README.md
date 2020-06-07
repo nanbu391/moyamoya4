@@ -68,7 +68,7 @@ https://gyazo.com/8951060adc88a968e92706a9faef3126
 
 #### -検索機能-  
 検索ワードを入力することで、検索したい語が入った投稿のみが表示されます。  
-https://gyazo.com/ce21c665b5e0e040104f777c2406cdc1
+[![Image from Gyazo](https://i.gyazo.com/ce21c665b5e0e040104f777c2406cdc1.gif)](https://gyazo.com/ce21c665b5e0e040104f777c2406cdc1)
 
 
 
