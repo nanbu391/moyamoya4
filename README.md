@@ -1,19 +1,60 @@
-# newRead
 
-概要
+# README　このアプリについて
+・アプリ名：ポチッと支え〜る
 
-
-## Description
-詳細の説明
-
-
-
-## Usage
-用途
+# 概要
+## ・アプリ名
+## ・使用言語・開発環境：HTML/CSS/Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code
+## ・機能：ログイン機能、投稿機能、編集機能、削除機能、共感・応援ボタン機能、
 
 
-## Install
-インストール方法
+# URL
+## URL:
+
+URL：http://3.113.185.115/
+
+Basic認証をかけています。閲覧時は以下のIDとPassを入力してください。
+
+🔒ID&Pass
+
+- ID: mercari64j
+- Pass:6464
+📝テスト用アカウント
+
+💰購入者アカウント
+
+- メール：buyer_user@gmail.com
+- パスワード: buyer_user
+
+
+# 機能詳細
+## 〜トップページ〜
+
+## 〜ログイン機能〜
+
+## 〜投稿機能〜
+
+## 〜編集機能〜
+
+## 〜削除機能〜
+
+## 〜共感・応援ボタン機能〜
+
+# 制作背景
+## フリーマーケットアプリの制作を通してフロントからサーバーサイドまでの技術理解を満遍なく深めるために作成した。
+
+### 用途
+
+### 工夫したポイント
+### 課題や今後実装したい機能
+
+
+
+
+
+
+
+
 
 
 #半角スペースの場合
@@ -47,41 +88,7 @@
 
 
 
-
-
-
-
-
-
-
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-
-# README
+# DB設計
 
 ## empathiesテーブル
 |Column|Type|Options|
