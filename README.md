@@ -2,7 +2,7 @@
 # README　このアプリについて  
   
   
-！[概要](https://a.slack-edge.com/production-standard-emoji-assets/10.2/apple-medium/1f4dd@2x.png)
+！[概要](https://github.com/nanbu391/moyamoya4/blob/master/1f4dd@2x.png)
 ## 概要
  ・アプリ名:ポチッと支え〜る  
  
