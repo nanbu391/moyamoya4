@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: "posts#index"
+
   resources :tags
   resources :posts do
     resources :empathes, only: [:create, :destroy]
