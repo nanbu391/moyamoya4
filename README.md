@@ -22,7 +22,7 @@
 #### -ログイン機能-
 名前、メールアドレス、パスワード（再確認）を入力して新規ユーザー登録ができます。  
 一度登録した後は、ログアウトした場合に再度メールアドレスとパスワードを入力することでログインできます。  
-h[![Image from Gyazo](https://i.gyazo.com/0985997685c168919236736f338ec91a.gif)](https://gyazo.com/0985997685c168919236736f338ec91a)
+[![Image from Gyazo](https://i.gyazo.com/0985997685c168919236736f338ec91a.gif)](https://gyazo.com/0985997685c168919236736f338ec91a)
 [![Image from Gyazo](https://i.gyazo.com/20219370380df28d3085d7be2478cf25.gif)](https://gyazo.com/20219370380df28d3085d7be2478cf25)
 
 #### -投稿機能-  
