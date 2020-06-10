@@ -7,7 +7,7 @@
  
  ・使用言語・開発環境：HTML/CSS/Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code  
  
- ・機能：ログイン機能、投稿機能、編集機能、削除機能、共感・応援ボタン機能
+ ・機能：ログイン機能、投稿機能、編集機能、削除機能、共感・応援ボタン機能、並び替え機能
 
 
 ## URL
