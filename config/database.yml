@@ -52,3 +52,4 @@ production:
   database: moyamoya_production
   username: moyamoya
   password: <%= ENV['MOYAMOYA_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
