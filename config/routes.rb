@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   }
 
   devise_scope :user do
+    root to: "users/sessions#new"
     get "user/:id", :to => "users/registrations#show"
     get "signup", :to => "users/registrations#new"
     get "login", :to => "users/sessions#new"
