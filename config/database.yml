@@ -48,8 +48,6 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: moyamoya_production
-  username: moyamoya
-  password: <%= ENV['MOYAMOYA_DATABASE_PASSWORD'] %>
+  adapter: mysql2
+  encoding: utf8
   url: <%= ENV['DATABASE_URL'] %>
